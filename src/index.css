@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+:root{
+  --body_background:lightblue;
+  --body_color:darkblue;
+
+}
+
+[data-theme="dark"]{
+--body_background:darkblue;
+--body_color:lightblue;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  background: var(--body_background);
+  color:var(--body_color);
+  /* background-image:url("assets/clouds.jpeg"); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
